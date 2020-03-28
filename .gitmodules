@@ -1,0 +1,9 @@
+[submodule "docker/templates/predictionio-template-similar-product"]
+	path = docker/templates/predictionio-template-similar-product
+	url = https://github.com/newpouy/predictionio-template-similar-product.git
+[submodule "docker/templates/predictionio-template-ecom-recommender"]
+	path = docker/templates/predictionio-template-ecom-recommender
+	url = https://github.com/newpouy/predictionio-template-ecom-recommender.git
+[submodule "docker/templates/universal-recommender"]
+	path = docker/templates/universal-recommender
+	url = https://github.com/newpouy/universal-recommender.git
