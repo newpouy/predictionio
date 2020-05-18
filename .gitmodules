@@ -22,6 +22,3 @@
 [submodule "docker/templates/template-scala-parallel-leadscoring"]
 	path = docker/templates/template-scala-parallel-leadscoring
 	url = https://github.com/newpouy/template-scala-parallel-leadscoring.git
-[submodule "plainit-template-ecom-recommender"]
-	path = plainit-template-ecom-recommender
-	url = https://github.com/newpouy/plainit-template-ecom-recommender.git
