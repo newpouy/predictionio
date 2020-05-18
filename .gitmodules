@@ -7,3 +7,18 @@
 [submodule "docker/templates/universal-recommender"]
 	path = docker/templates/universal-recommender
 	url = https://github.com/newpouy/universal-recommender.git
+[submodule "docker/templates/predictionio-MLlibKMeansClusteringTemplate"]
+	path = docker/templates/predictionio-MLlibKMeansClusteringTemplate
+	url = https://github.com/newpouy/predictionio-MLlibKMeansClusteringTemplate.git
+[submodule "docker/templates/predictionio-template-attribute-based-classifier"]
+	path = docker/templates/predictionio-template-attribute-based-classifier
+	url = https://github.com/newpouy/predictionio-template-attribute-based-classifier.git
+[submodule "docker/templates/PredictionIo-lingpipe-MultiLabelClassification"]
+	path = docker/templates/PredictionIo-lingpipe-MultiLabelClassification
+	url = https://github.com/newpouy/PredictionIo-lingpipe-MultiLabelClassification.git
+[submodule "docker/templates/PredictionIO-Churn-Prediction-H2O-Sparkling-Water"]
+	path = docker/templates/PredictionIO-Churn-Prediction-H2O-Sparkling-Water
+	url = https://github.com/newpouy/PredictionIO-Churn-Prediction-H2O-Sparkling-Water.git
+[submodule "docker/templates/template-scala-parallel-leadscoring"]
+	path = docker/templates/template-scala-parallel-leadscoring
+	url = https://github.com/newpouy/template-scala-parallel-leadscoring.git
