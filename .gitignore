@@ -38,3 +38,5 @@ assembly/*.jar
 assembly/src/universal/
 
 .metals
+
+.vscode/
