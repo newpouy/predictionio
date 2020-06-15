@@ -132,7 +132,7 @@ class ESLEvents(val client: RestClient, config: StorageClientConfig, val eventda
         }
       } catch {
         case e: IOException =>
-          error(s"Failed to update $index/$estype/<id>", e)
+          error(s"Failed to updateee1 $index/$estype/<id>", e)
           ""
       }
     }
@@ -149,7 +149,7 @@ class ESLEvents(val client: RestClient, config: StorageClientConfig, val eventda
         val ids = events.map { event =>
           event.eventId.getOrElse(ESEventsUtil.getBase64UUID)
         }
-
+        
         val json = events.zip(ids).map { case (event, id) =>
           val commandJson =
             ("create" -> (
@@ -199,7 +199,7 @@ class ESLEvents(val client: RestClient, config: StorageClientConfig, val eventda
         }
       } catch {
         case e: IOException =>
-          error(s"Failed to update $index/$estype/<id>", e)
+          error(s"Failed to updateee2 $index/$estype/<id>", e)
           Nil
       }
     }
